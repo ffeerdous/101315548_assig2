@@ -6,7 +6,7 @@
     "101315548_comp3133_assig2": {
       "projectType": "application",
       "schematics": {},
-      "root": "",
+      "root": "./101315548_assig2",
       "sourceRoot": "src",
       "prefix": "app",
       "architect": {
@@ -91,6 +91,9 @@
             ],
             "scripts": ["node_modules/bootstrap/dist/js/bootstrap.min.js"]
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }
